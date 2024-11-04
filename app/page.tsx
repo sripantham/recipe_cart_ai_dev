@@ -84,7 +84,7 @@ const HomePage: React.FC = () => {
                     id="recipe"
                     value={recipe}
                     onChange={(e) => setRecipe(e.target.value)}
-                    placeholder="Paste your recipe here... (e.g., 2 cups flour, 1 cup sugar, 3 eggs...)"
+                    placeholder="Paste your recipe name here... (e.g., paneer butter masala for 4 people)"
                     className="w-full h-48 p-4 border rounded-xl shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-400 transition-colors duration-300"
                     required
                   />
