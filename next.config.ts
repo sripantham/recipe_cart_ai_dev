@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  transpilePackages: ['lucide-react','@google/generative-ai'],
+  transpilePackages: ['lucide-react'],
   output:'standalone',
 };
 
